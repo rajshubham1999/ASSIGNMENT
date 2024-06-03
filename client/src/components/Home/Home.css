@@ -1,0 +1,97 @@
+.container {
+
+    margin-top: 5px;
+    /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.maincontainer {
+    width: 1495px;
+    height: 773.92px;
+    top: 167px;
+    left: 212px;
+    gap: 0px;
+    border-radius: 12.89px 0px 0px 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.heading {
+    width: 690px;
+    height: 80px;
+    top: 167px;
+    left: 612px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 40px;
+
+}
+
+.paragraph {
+    margin-top: 4px;
+    width: 1480px;
+    height: 147px;
+    top: 673px;
+    left: 212px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paragraph>p {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 41.02px;
+    text-align: center;
+    color: #666;
+
+}
+
+.button {
+    margin-top: 5px;
+
+}
+
+.createproject {
+    margin-top: 5px;
+    width: 569.83px;
+    height: 100px;
+    top: 831px;
+    left: 675px;
+    gap: 0px;
+    border-radius: 12.89px 0px 0px 0px;
+    opacity: 0px;
+    background: #211935;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+
+.buttonicon {
+    width: 55.86px;
+    height: 55.85px;
+    top: 859.83px;
+    left: 705.75px;
+    gap: 0px;
+    opacity: 0px;
+    color: #F8F8F8;
+
+}

@@ -1,0 +1,360 @@
+.main {
+    display: flex;
+}
+
+.sidebar {
+    width: 410px;
+    height: 1000px;
+    padding: 15.9px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 0px 21.2px 21.2px 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3E8FF;
+}
+
+.icon-image {
+    width: 390px;
+    height: 50px;
+    padding: 10.6px 10.6px 10.6px 21.2px;
+    gap: 13.25px;
+    opacity: 0px;
+    display: flex;
+}
+
+.logoname {
+    height: 40px;
+}
+
+.cotainerbox {
+    width: 410px;
+    height: 500px;
+}
+
+.individual-box {
+    width: 370px;
+    height: 35px;
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.container-value {
+    width: 400px;
+    height: 400px;
+}
+
+.values {
+    width: 370px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: gray;
+
+}
+
+.values:hover {
+    color: #fff;
+    background-color: purple;
+
+}
+
+.default-hover {
+    color: #fff;
+    background-color: purple;
+}
+
+
+.rightside-container {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 460px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hut {
+    width: 45px;
+    height: 45px;
+    top: 66px;
+    left: 548px;
+    padding: 7.58px 4.33px 7.58px 4.33px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+
+.upload {
+    width: 340px;
+    height: 30px;
+    top: 72px;
+    left: 600px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 5px;
+    cursor: pointer;
+
+}
+
+.right {
+    width: 200px;
+    height: 38px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.downarrow {
+    width: 40px;
+    height: 50px;
+    top: 60px;
+    left: 1560px;
+    padding: 0px 18.67px 0px 18.67px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+
+.EN {
+    width: 20px;
+    height: 16px;
+    top: 73px;
+    left: 1621px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+
+.flag {
+    width: 35px;
+    height: 28px;
+    top: 62px;
+    left: 1681px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.notify {
+    width: 39px;
+    height: 37px;
+    top: 60px;
+    left: 1792px;
+    padding: 6px 10.67px 6px 10.67px;
+    gap: 0px;
+    opacity: 0px;
+    cursor: pointer;
+}
+
+.title {
+    width: 500px;
+    height: 60px;
+    top: 177px;
+    left: 547px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 64.45px;
+    text-align: left;
+    color: #7E22CE;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.media-box {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 270px;
+}
+
+.boxes {
+    width: 310px;
+    height: 100px;
+    gap: 0px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.boxes:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mediaimage {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.medianame {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3C3C3C;
+}
+
+.project-container {
+    margin-top: 20px;
+    width: 100%; /* Set width to 100% to fit within the screen */
+    max-width: 1296px; /* Set max-width to limit expansion */
+    gap: 0px;
+    border-radius: 22px 0px 0px 0px;
+    border: 1px solid red;
+    overflow: hidden; /* Hide overflowing content */
+    min-height: 100px; /* Set a minimum height for the table container */
+  }
+  
+  
+  .custom-table {
+    border-collapse: collapse;
+    width: 100%; /* Set table width to 100% */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: none;
+    padding: 8px;
+  }
+  
+  .custom-table th {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .custom-table th:not(:first-child),
+  .custom-table td:not(:first-child) {
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  .custom-table th:nth-child(2), .custom-table td:nth-child(2),
+  .custom-table th:nth-child(3), .custom-table td:nth-child(3),
+  .custom-table th:nth-child(4), .custom-table td:nth-child(4) {
+    text-align: center; /* Center-align table cell content */
+  }
+  
+  .edit-button {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    color: red;
+    cursor: pointer;
+    
+  }
+  
+  .processed-box {
+   
+    height: 100%; /* Fill the entire height of the container */
+  }
+  
+  
+  
+  
+
+
+
+
+
+/* Existing styles omitted for brevity */
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: center;
+    width: 600px
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.modal-image {
+    width: 50px;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.modal-input {
+    width: calc(100% - 40px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.upload-button {
+    background: #7E22CE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
